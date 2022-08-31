@@ -1,0 +1,31 @@
+body {
+    font-family: 'Raleway', sans-serif;
+  
+}
+.maindiv {
+    margin-top:3rem;
+    max-width:40% !important;
+  }
+  
+  .bg-cyan-900	{
+    background-color: rgb(22 78 99);	
+  }
+  .top-100 {
+    animation: slideDown 0.5s ease-in-out; 
+}
+
+@keyframes slideDown {
+    0% {
+        top: -50%;
+    }
+
+    100% {
+        top: 0;
+    }
+}
+
+* {
+    outline: none !important;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    -webkit-tap-highlight-color: transparent;
+}
